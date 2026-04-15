@@ -1,0 +1,600 @@
+body{
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-attachment: fixed;
+    color: #000;
+    font: normal 16px bold Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+a:hover{
+    color: lightblue;
+}
+
+header{
+    background-color: darkblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+header img{
+    width: 70px;
+    font-size: 24px;
+}
+
+.logo-area{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+header h1{
+    color: white;
+    font-size: 24px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.link-area{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+main{
+    width: 100%;
+}
+
+section{
+    padding: 60px 30px;
+}
+
+.hero{
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 100px 30px;
+}
+
+.hero h1{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: lightblue;
+}
+
+.hero a{
+    background-color: blue;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.about-content img{
+    width: 45%;
+    border-radius: 8px;
+}
+
+.about-text h2{
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: darkblue;    
+}
+
+.about-text p{
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.about-text a{
+    background-color: blue;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.news{
+    background-color: white;
+    text-align: center;
+}
+
+.news h2{
+    font-size: 28px;
+    color: darkblue;
+    margin-bottom: 30px;
+}
+
+.news-cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    background-color: #f0f4ff;
+    padding: 25px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: left;
+}
+
+.card h3{
+    font-size: 18px;
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.card p{
+    font-size: 15px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.cta{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 70px 30px;
+}
+
+.cta h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.cta p{
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: lightblue;
+}
+
+.cta a{
+    background-color: white;
+    color: blue;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.page-banner {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.page-banner h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.page-banner p {
+    font-size: 16px;
+    color: lightblue;
+}
+
+.history {
+    padding: 60px 30px;
+    background-color: #f9f9f9;
+}
+
+.history-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.history-content img {
+    width: 45%;
+    border-radius: 8px;
+}
+
+.history-text h2 {
+    color: darkblue;
+    margin-bottom: 15px;
+}
+
+.history-text p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.mission-vision {
+    display: flex;
+    gap: 30px;
+    padding: 60px 30px;
+    background-color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.mission, .vision {
+    background-color: #f0f4ff;
+    padding: 30px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.mission h2, .vision h2 {
+    color: darkblue;
+    margin-bottom: 15px;
+}
+
+.mission p, .vision p {
+    color: #555;
+    line-height: 1.8;
+}
+
+.principal {
+    background-color: #f9f9f9;
+    padding: 60px 30px;
+}
+
+.principal-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.principal-content img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.principal-text h2 {
+    color: darkblue;
+    margin-bottom: 15px;
+}
+
+.principal-text p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.academics {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.academics h2 {
+    color: darkblue;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.departments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.department-card {
+    background-color: #f0f4ff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 45%;
+    text-align: left;
+}
+
+.department-card h3 {
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.department-card p {
+    color: #555;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+.news-page {
+    padding: 60px 30px;
+    background-color: #f9f9f9;
+}
+
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.news-item {
+    background-color: white;
+    border-radius: 8px;
+    width: 30%;
+    overflow: hidden;
+}    
+
+.news-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.news-item-text {
+    padding: 20px;
+}
+
+.news-item-text h3 {
+    color: darkblue;
+    margin-bottom: 8px;
+}
+
+.news-item-text .date {
+    color: lightblue;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.news-item-text p {
+    color: #555;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+
+
+
+.gallery {
+    padding: 60px 30px;
+    background-color: #f9f9f9;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.gallery-grid img {
+    width: 30%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+.contact {
+    padding: 60px 30px;
+    background-color: #f9f9f9;
+}
+
+.contact-wrapper {
+    display: flex;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h2 {
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #555;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.contact-form h2 {
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.contact-form button {
+    background-color: darkblue;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: blue;
+}
+
+
+
+
+
+footer{
+    background-color: darkblue;
+    color: white;
+    padding: 40px 30px 0 30px;
+     border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-school-info h3{
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: lightblue; 
+}
+
+.footer-links h3{
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: lightblue; 
+}
+
+.footer-social h3{
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: lightblue;
+}
+
+.footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-social ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-social a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links a:hover{
+    color: lightblue;
+}
+
+.footer-social a:hover{
+    color: lightblue;
+}
+
+.footer-bottom{
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 13px;
+    color: lightblue;
+}
+
+
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .link-area {
+        width: 100%;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-school-info{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-links{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-social{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
